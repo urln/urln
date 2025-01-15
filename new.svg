@@ -1,15 +1,15 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
-<rect fill="rgba(0,0,0,0.5)" width="100%" height="100%" stroke="red" stroke-width='2'/>
-<circle fill='none' stroke-opacity='1' stroke='#FF156D' stroke-width='.5' cx='100' cy='100' r='0'>
-<animate attributeName='r' calcMode='spline' dur='2' values='1;80' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200' />
+<rect fill='#000' width='100%' height='100%' stroke='#FF156D' stroke-width='.5' rx='10' ry='10'/>
+<circle fill='none' stroke-opacity='1' stroke='#FF156D' stroke-width='.5' cx='100' cy='100' r='0' />
+<animate attributeName='r' calcMode='spline' dur='5' values='1;80' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
 </animate>
-<animate attributeName='stroke-width' calcMode='spline' dur='2' values='0;25' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
+<animate attributeName='stroke-width' calcMode='spline' dur='5' values='0;25' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
 </animate>
-<animate attributeName='stroke-opacity' calcMode='spline' dur='2' values='1;0' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
+<animate attributeName='stroke-opacity' calcMode='spline' dur='5' values='1;0' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
 </animate></circle>
-<text x="5" y="10" fill="coral" stroke="none" font-size="8">Apa bisa saya membuat blog dengan svg
-<tspan x="4" dy="1.2em">very long text</tspan>
-<tspan x="5" dy="1.2em">I would like to linebreak</tspan>
+<text x="5" y="10" fill="coral" stroke="none" font-size="8">
+Apa bisa saya membuat blog dengan svg
+<tspan x="4" dy="1.2em">Saya menyukai file svg</tspan>
+<tspan x="5" dy="1.2em">Karna dia ringan</tspan>
 </text>
-<image x="5" y="80" width="50" height="50" href="./base.svg "/>
 </svg>
