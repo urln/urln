@@ -1,8 +1,8 @@
-# my project
-this..
 <picture>
-![Home](new.svg)
+<source srcset="new.svg" type="image/svg+xml">
+<img src="new.svg" alt="Home">
 </picture>
-<picture>
-![home](base.svg)
+picture>
+<source srcset="base.svg" type="image/svg+xml">
+<img src="base.svg" alt="Home">
 </picture>
