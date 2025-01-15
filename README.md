@@ -2,7 +2,7 @@
 
 This is a description of my project.
 
-[![Home](base.svg)]()
+[![Home](base.svg)](/)
 
 ## Features
 
