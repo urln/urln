@@ -1,0 +1,13 @@
+<svg width="100" height="200">
+        <defs>
+            <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color: blue; stop-opacity: 1">
+                    <animate attributeName="stop-color" values="blue; green; red; blue" dur="4s" repeatCount="indefinite" />
+                </stop>
+                <stop offset="100%" style="stop-color: green; stop-opacity: 1">
+                    <animate attributeName="stop-color" values="green; red; blue; green" dur="4s" repeatCount="indefinite" />
+                </stop>
+            </linearGradient>
+        </defs>
+<rect x="10" y="10" width="280" height="180" fill="url(#gradient1)" /> 
+</svg>
