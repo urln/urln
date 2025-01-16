@@ -1,8 +1,30 @@
-# urLn.github.io
+[![images](svg/urln.svg)](https://urln.github.io)
+#### background linear gradient svg
 <picture>
 <source srcset="svg/bgr.svg" type="image/svg+xml">
 <img src="svg/bgr.svg" alt="Home">
 </picture>
+
+##### this source code from images.svg 
+```svg
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 150'>
+<defs><linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color: blue; stop-opacity: 1">
+<animate attributeName="stop-color" values="blue; green; red; blue" dur="4s" repeatCount="indefinite" /></stop>
+<stop offset="100%" style="stop-color: green; stop-opacity: 1">
+<animate attributeName="stop-color" values="green; red; blue; green" dur="4s" repeatCount="indefinite" /></stop>
+</linearGradient></defs>
+<rect x="0" y="0" width="100" height="150" fill="url(#gradient1)" /> 
+</svg>
+```
+##### for insert in body css:
+```css
+body{
+background: url('https://raw.githubusercontent.com/urln/urln/refs/heads/main/svg/bgr.svg');
+background-size: cover;
+}
+```
+
 <picture>
 <source srcset="new.svg" type="image/svg+xml">
 <img src="new.svg" alt="Home">
