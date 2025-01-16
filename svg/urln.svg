@@ -1,34 +1,10 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'>
-  <text x="10" y="50" font-size="30" font-family="Arial" fill="green">
-    <tspan id="u" opacity="0">u</tspan>
-    <tspan id="r" opacity="0">r</tspan>
-    <tspan id="l" opacity="0">l</tspan>
-    <tspan id="n" opacity="0">n</tspan>
-    <tspan id="dot1" opacity="0">.</tspan>
-    <tspan id="g" opacity="0">g</tspan>
-    <tspan id="i" opacity="0">i</tspan>
-    <tspan id="t" opacity="0">t</tspan>
-    <tspan id="h" opacity="0">h</tspan>
-    <tspan id="u2" opacity="0">u</tspan>
-    <tspan id="b" opacity="0">b</tspan>
-    <tspan id="dot2" opacity="0">.</tspan>
-    <tspan id="i2" opacity="0">i</tspan>
-    <tspan id="o" opacity="0">o</tspan>
-  </text>
-
-  <!-- Animation for each letter -->
-  <animate xlink:href="#u" attributeName="opacity" from="0" to="1" begin="0s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#r" attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#l" attributeName="opacity" from="0" to="1" begin="1s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#n" attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#dot1" attributeName="opacity" from="0" to="1" begin="2s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#g" attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#i" attributeName="opacity" from="0" to="1" begin="3s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#t" attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#h" attributeName="opacity" from="0" to="1" begin="4s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#u2" attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#b" attributeName="opacity" from="0" to="1" begin="5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#dot2" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#i2" attributeName="opacity" from="0" to="1" begin="6s" dur="0.5s" fill="freeze" />
-  <animate xlink:href="#o" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.5s" fill="freeze" />
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="360" height="120"  viewBox="-10 10 360 55">
+  <path d="M-1,1.499h83c0,0,10.5,1,10.5,11.25s-10.25,12.25-10.25,12.25h-43.5c0,0-10.75,0.75-11.75,11.5s9.75,12.25,9.75,12.25H343.5"
+        stroke="#529fd9" stroke-width="2" fill="none" id="wire"></path>
+  <circle cx="0" cy="0" r="8" fill="#529fd9">
+    <animateMotion dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#wire"></mpath>
+    </animateMotion>
+  </circle>
 </svg>
