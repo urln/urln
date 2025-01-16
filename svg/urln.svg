@@ -10,10 +10,11 @@ newText.setAttribute("x", "100");
     newText.setAttribute("fill", "blue"); // Change color if needed
     newText.textContent = "This is a new line!";
   var hek= document.getElementsByTagName("svg")[0];
+var bu=document.getElementById("ngehe")[0];
 hek.appendChild(newText);
-hek.addEventListener("click", myFunction);
+bu.addEventListener("click", myFunction);
 function myFunction(){
-document.getElementById("ngehe").innerHTML = "Hello World";
+document.getElementById("ngeh").innerHTML = "Hello World";
 }
 
 </script>
