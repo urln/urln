@@ -1,11 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="360" height="65"  viewBox="0 -3 360 55">
-  <path d="M-1,1.499h83c0,0,10.5,1,10.5,11.25s-10.25,12.25-10.25,12.25h-43.5c0,0-10.75,0.75-11.75,11.5s9.75,12.25,9.75,12.25H343.5"
-        stroke="#529fd9" stroke-width="7" fill="none" id="wire"></path>
-  <circle cx="0" cy="0" r="8" fill="#76afd9">
-       <animateMotion dur="3s" repeatCount="indefinite">
-      <mpath xlink:href="#wire"></mpath>
-    
-    </animateMotion>
-  </circle>
+<svg width="10cm" height="3cm" viewBox="0 0 1000 300" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<text id="ngehe" x="100" y="200" font-size="185" fill="red"></text>
+<script type="text/javascript">
+var newText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+newText.setAttribute("id", "mmk"); 
+newText.setAttribute("x", "100");
+    newText.setAttribute("y", "250"); // Adjust y position for the new line
+    newText.setAttribute("font-size", "45");
+    newText.setAttribute("fill", "blue"); // Change color if needed
+    newText.textContent = "This is a new line!";
+  var hek= document.getElementsByTagName("svg")[0];
+hek.appendChild(newText);
+hek.addEventListener("click", myFunction);
+function myFunction(){
+document.getElementById("ngehe").innerHTML = "Hello World";
+}
+
+</script>
 </svg>
