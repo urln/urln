@@ -10,7 +10,11 @@
 </animate></circle>
 <foreignObject width="100%" height="100%">
 <style>
- foreignObject{border:1px solid green;}
+ foreignObject{
+ border:1px solid green;
+ background: url('https://raw.githubusercontent.com/urln/urln/refs/heads/main/svg/bgr.svg');
+ background-size: cover;
+ }
 </style>
 <body xmlns="http://www.w3.org/1999/xhtml">
 <div class="myText">
