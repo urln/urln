@@ -9,10 +9,12 @@
 <animate attributeName='stroke-opacity' calcMode='spline' dur='5' values='1;0' keyTimes='0;1' keySplines='0 .2 .5 1' repeatCount='indefinite'>
 </animate></circle>
 <foreignObject width="100%" height="100%">
+<style>
+ foreignObject{border:1px solid green;}
+</style>
 <body xmlns="http://www.w3.org/1999/xhtml">
-<style></style>
 <div class="myText">
- Ini adalah teks dalam foreignObject.
+Ini adalah teks dalam foreignObject.
 </div>
 </body>
 </foreignObject>
